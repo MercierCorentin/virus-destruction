@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Assistech Game</title>
+    </head>
+    <body>
+
+        <div id="start-menu">
+                <div id='start-button'>
+                    <p>Commencer </p>
+                    <img id="virus-start-image" src="img/startVirus.png">
+                </div>
+        </div>
+
+    	<div id="game-container">
+            <div id="score-container">
+                <div id="current-score">
+                    <img id="virus-img" src="img/virusScore.png">
+                    <p id="current-score-player">: 0 </p>
+                </div>
+                <div id="best-score">
+                    <p id="best-score-player">best: 87</p>
+                </div>
+            </div>
+            <img src="img/pause.png" id="imagePause">
+            <div id="life-bar">
+            	
+                <div class="life-bar-inner">
+                    <div id="red"></div>
+                    <div id="green"></div>
+                </div>
+            </div>
+            <img src="img/canon/90.png" id="canon">
+            <div id="death-message">
+                <p>Vous êtes mort !</p>
+                <p>ok</p>
+            </div>
+            <img class='virus' id='virus_0' src='img/virus.png'>
+            <img class='virus' id='virus_1' src='img/virus.png'>
+            <img class='virus' id='virus_2' src='img/virus.png'>
+            <img class='virus' id='virus_3' src='img/virus.png'>
+            <img class='virus' id='virus_4' src='img/virus.png'>
+            <img class='virus' id='virus_5' src='img/virus.png'>
+            <img class='bullet' id='bullet_0' src='img/bullet.png'>
+            <img class='bullet' id='bullet_1' src='img/bullet.png'>
+            <img class='bullet' id='bullet_2' src='img/bullet.png'>
+            <img class='bullet' id='bullet_3' src='img/bullet.png'>
+    		
+        </div>
+        
+   		<div id="pause-menu">
+   			<button id="continue" class="pause-menu-button">Reprendre</button>
+   			<button id="exit" class="pause-menu-button">Quitter</button>   			
+   		</div>
+        <script type="text/javascript" src=js/jquery.js></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
